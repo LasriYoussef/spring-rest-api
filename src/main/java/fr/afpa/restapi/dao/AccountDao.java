@@ -32,4 +32,6 @@ public interface AccountDao {
      * @param account
      */
     void delete(Account account);
+
+    Account update(Account account);
 }

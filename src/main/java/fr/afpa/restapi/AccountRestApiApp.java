@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Documentation -> https://medium.com/@boris.alexandre.rose/springbootapplication-ab08032a7049
  * 
  */
+@SpringBootApplication
 public class AccountRestApiApp {
     public static void main(String[] args) {
         SpringApplication.run(AccountRestApiApp.class, args);

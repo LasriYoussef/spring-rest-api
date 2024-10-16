@@ -43,6 +43,17 @@ public class Account {
         // Constructeur vide pour permettre à Spring d'instancier les objets.
     }
 
+    public Account(Long id, String firstName, String lastName, String email, LocalDate birthday,
+            LocalDateTime creationTime, BigDecimal balance) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.birthday = birthday;
+        this.creationTime = creationTime;
+        this.balance = balance;
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;
